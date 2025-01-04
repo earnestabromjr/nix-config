@@ -4,8 +4,12 @@
   #Kitty Config
   programs.kitty = {
     enable = true;
-    font.package = pkgs.nerdfonts;
-    font.name = "JetBrainsMono";
+    fonts.packages = [
+      pkgs.nerd-fonts.jet-brains-mono
+      pkgs.nerd-fonts.hack
+      pkgs.nerd-fonts.droid-sans-mono
+      pkgs.nerd-fonts._3720
+    ];
     extraConfig = "
       # Font family. You can also specify different fonts for the
       # bold/italic/bold-italic variants. By default they are derived automatically,
