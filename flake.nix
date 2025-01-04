@@ -7,7 +7,7 @@
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/*.tar.gz";
 
     home-manager = {
-      url = "github:nix-community/home-manager";
+      url = "github:nix-community/home-manager/release-24.11";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
