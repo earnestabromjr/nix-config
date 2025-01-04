@@ -40,13 +40,6 @@
   home.file = {
   };
 
-  # Fonts
-  fonts.packages = [
-    pkgs.nerd-fonts.jetbrains-mono
-    pkgs.nerd-fonts.hack
-    pkgs.nerd-fonts.droid-sans-mono
-  ];
-
   home.sessionVariables = {
     # EDITOR = "emacs";
   };
