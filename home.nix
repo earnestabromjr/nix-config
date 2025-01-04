@@ -4,7 +4,6 @@
   imports = [
     ./user/shells/sh.nix
     ./user/terminals/kitty.nix
-    ./user/WM/hyprland.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
