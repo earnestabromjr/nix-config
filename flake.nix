@@ -7,7 +7,7 @@
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
-  outputs = { nixpkgs, hyprland, ... } @ inputs:
+  outputs = { nixpkgs, hyprland, ... }:
     let
       lib = nixpkgs.lib;
       system = "x86_64-linux";
