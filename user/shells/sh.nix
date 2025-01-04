@@ -32,5 +32,10 @@
       ".." = "cd ..";
       neovim = "nix run ~/neovim-flake# ";
     };
+
+    initExtra = "
+      eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    ";
+
   };
 }
