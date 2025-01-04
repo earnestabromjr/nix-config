@@ -14,7 +14,7 @@
       pkgs = nixpkgs.legacyPackages.${system};
     in {
     homeConfigurations = {
-      terrya = home-manager.lib.homeManagerConfiguration {
+      terry = home-manager.lib.homeManagerConfiguration {
         inherit pkgs;
         modules =
         [
