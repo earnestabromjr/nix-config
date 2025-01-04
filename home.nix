@@ -28,6 +28,7 @@
     nodejs
     zoxide
     fzf
+    fh
     lua
     nixd
     nixdoc

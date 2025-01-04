@@ -3,6 +3,7 @@
 
   inputs = {
     # Specify the source of Home Manager and Nixpkgs.
+    fh.url = "https://flakehub.com/f/DeterminateSystems/fh/0.1.21.tar.gz";
     nixpkgs.url = "https://flakehub.com/f/NixOS/nixpkgs/*.tar.gz";
 
     home-manager = {
@@ -11,7 +12,7 @@
     };
   };
 
-  outputs = { nixpkgs, home-manager, ... }:
+  outputs = { nixpkgs, home-manager, fh, ... }:
     let
       system = "x86_64-linux";
       pkgs = nixpkgs.legacyPackages.${system};
