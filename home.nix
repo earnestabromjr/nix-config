@@ -7,11 +7,11 @@
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
-  home.username = "terrya";
-  home.homeDirectory = "/home/terrya";
+  home.username = "terry";
+  home.homeDirectory = "/home/terry";
 
 
-  home.stateVersion = "25.05-pre"; # Please read the comment before changing.
+  home.stateVersion = "24.11"; # Please read the comment before changing.
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
@@ -19,28 +19,14 @@
     vscode-with-extensions
     vscodium-fhs
     direnv
-    ripgrep
-    zoxide
-    unzip
-    fzf
     fastfetch
-    brave
     librewolf
-    bitwarden-desktop
-    git
     gitkraken
     github-cli
-    neovim
-    gnupg
     python3
-    bat
     gcc
-    rustup
     nodejs
-    curl
     lua
-    stow
-    zed-editor
     nixd
     nixdoc
     nil
