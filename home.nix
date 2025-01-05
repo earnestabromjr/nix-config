@@ -25,7 +25,6 @@
     github-cli
     python3
     gcc
-    nodejs
     zoxide
     fzf
     fh
